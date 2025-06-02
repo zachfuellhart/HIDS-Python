@@ -62,30 +62,30 @@ The project includes:
 
 ## 2.3 Project Structure
 HIDS-Python/
-├── hids/
-│   ├── __init__.py              # Makes this a Python package
-│   ├── alert_manager.py         # Handles alerts when something suspicious happens
-│   ├── email_config.py          # Stores email settings (sender, receiver, password)
-│   ├── file_hashes.json         # Keeps track of original file hashes
-│   ├── main.py                  # Runs the HIDS system
-│   ├── monitor_files.py         # Checks if important files have been changed
-│   ├── monitor_logs.py          # Looks for suspicious activity in logs
-│   ├── send_email_alert.py      # Sends alert emails
-├── utils/
-│   ├──hash_utils.py             # Helps with file hashing
-├── .gitignore                   # Tells Git which files to ignore
-├── LICENSE                      # Open-source license (MIT)
-├── README.md                    # Project guide and instructions
-├── requirements.txt             # List of needed Python packages
-├── test_email.py                # Tests if email alerts are working
+- ├── hids/
+- │   ├── __init__.py              # Makes this a Python package
+- │   ├── alert_manager.py         # Handles alerts when something suspicious happens
+- │   ├── email_config.py          # Stores email settings (sender, receiver, password)
+- │   ├── file_hashes.json         # Keeps track of original file hashes
+- │   ├── main.py                  # Runs the HIDS system
+- │   ├── monitor_files.py         # Checks if important files have been changed
+- │   ├── monitor_logs.py          # Looks for suspicious activity in logs
+- │   ├── send_email_alert.py      # Sends alert emails
+- ├── utils/
+- │   ├──hash_utils.py             # Helps with file hashing
+- ├── .gitignore                   # Tells Git which files to ignore
+- ├── LICENSE                      # Open-source license (MIT)
+- ├── README.md                    # Project guide and instructions
+- ├── requirements.txt             # List of needed Python packages
+- ├── test_email.py                # Tests if email alerts are working
 
 # 3. Usage
-1. Run the monitoring manually using:
+- Run the monitoring manually using:
    ```bash
    python -m hids.main
-2. Review alerts printed to console and saved in log files.
-3. Check your email for alert notifications on file changes or suspicious logins.
-4. Use cron to automate running the monitor periodically for continuous protection.
+- Review alerts printed to console and saved in log files.
+- Check your email for alert notifications on file changes or suspicious logins.
+- Use cron to automate running the monitor periodically for continuous protection.
 
 # 4. License
 This project is licensed under the MIT License - see the LICENSE file for details.
