@@ -60,7 +60,7 @@ The project includes:
    ```cron
    */5 * * * * cd /home/znf5026/HIDS-Python && /home/znf5026/HIDS-Python/venv/bin/python3 -m hids.main >> /home/znf5026/HIDS-Python/logs/cron_output.log 2>&1
 
-## 2.4 Project Structure
+## 2.3 Project Structure
 HIDS-Python/
 ├── hids/
 │   ├── __init__.py              # Makes this a Python package
