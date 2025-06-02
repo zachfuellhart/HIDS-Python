@@ -24,8 +24,8 @@ The project includes:
 # 2. Getting Started
 
 ## 2.1 Prerequisites 
+- OS: Ubuntu 20.04 or later
 - Python 3.8 or higher
-- Virtual environment (recommended)
 - SMTP email account (Gmail recommended) with App Password enabled for sending alerts
 - Permission to read system files and logs (sudo)
 
