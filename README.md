@@ -3,7 +3,7 @@
 ## 1.1 Overview
 Host-Based Intrusion Detection System (HIDS) implemented in Python to monitor system log files and critical file integrity changes, and send alert emails automatically when suspicious activity is detected.
 
-Example of what the email alerts look like in gmail inbox:
+Example of what the email alerts look like in a gmail inbox:
 ![image](https://github.com/user-attachments/assets/272443e1-79f1-45ed-95f6-8f8ff4f6ec0b)
 
 The project includes:
