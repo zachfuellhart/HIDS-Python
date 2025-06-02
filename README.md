@@ -91,10 +91,10 @@ HIDS-Python/
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 # 5. Contact
-Created by Zachary Fuellhart.
-email: znf5026@psu.edu
-GitHub: zachfuellhart
-Feel free to reach out for questions or collaboration.
+- Created by Zachary Fuellhart.
+- email: znf5026@psu.edu
+- GitHub: zachfuellhart
+- Feel free to reach out for questions or collaboration.
 
 
 
